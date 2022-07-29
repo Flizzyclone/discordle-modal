@@ -36,15 +36,3 @@ commands.push(wordle.toJSON());
 		console.error(error);
 	}
 })();
-
-
-
-headers = {
-    'Content-Type': 'application/json',
-	'Authorization': 'Bearer [Bot Bearer]',
-}
-
-headers2 = {
-    'Content-Type': 'application/json',
-	'Authorization': 'Bot [Bot Token]',
-}
